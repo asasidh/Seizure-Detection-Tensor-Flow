@@ -4,7 +4,7 @@ Detect seizure inducing images using Tensor Flow
 ------------------------------------------------
 Background
 ----------
-Earlier in March 2017, there was a lot of [news coverage](https://www.nytimes.com/2017/03/17/technology/social-media-attack-that-set-off-a-seizure-leads-to-an-arrest.html) about an incident in the social media. Journalist Kurt Eichenwald received a tweet that stated `"YOU DESERVE A SEIZURE FOR YOUR POSTS" a seizure for your posts"`. The Journalist who suffered from epilepsy, got a seizure by looking at the post.
+Earlier in March 2017, there was a lot of [news coverage](https://www.nytimes.com/2017/03/17/technology/social-media-attack-that-set-off-a-seizure-leads-to-an-arrest.html) about an incident in the social media. Journalist Kurt Eichenwald received a tweet that stated `"YOU DESERVE A SEIZURE FOR YOUR POSTS"`. The Journalist who suffered from epilepsy, got a seizure by looking at the image.
 
 This incident has shown how social media could potentially be used as a terror weapon to inflict immediate physical pain and suffering to unsuspecting victims. Email, websites with user generated content are equally vulnerable to such attacks. In  2008 a hacker [defaced the website of the Epilepsy Foundation](http://www.cbsnews.com/news/epilepsy-site-hacked-with-seizure-images/) and inserted flashing images which caused multiple health incidents to unsuspecting victims.
 
@@ -19,7 +19,7 @@ TensorFlow is a an open source library for building machine learning models. In 
 3. Follow the instructions in [Google Code Labs](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets) to retrain your model.
   * With 500 Iterations, Final test accuracy was 86.8%
   * With 4000 Iterations, Final test accuracy improved to 91.5% and that is the model uploaded here as [retrained_graph.pb](https://github.com/asasidh/Seizure-Detection-Tensor-Flow/blob/master/retrained_graph.pb)
-4. Download test images to validate the trained model. Since I used google images to batch download training images, I decided to use bing image search for the test images.
+4. Download test images to validate the trained model. Since I used google images to batch download training images, I decided to use bing image search for the test images. Couple of test images are uploaded under the `test_images` folder.
 
 
 Notes
