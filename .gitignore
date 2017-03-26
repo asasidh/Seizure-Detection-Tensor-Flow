@@ -1,6 +1,5 @@
 flower_photos.tgz
 inception/*
 bottlenecks/*
-retrained_labels.txt
 images/*
 .DS_Store
