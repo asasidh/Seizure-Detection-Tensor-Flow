@@ -26,8 +26,6 @@ Notes
 ----
 The animated gif needs to be converted to a jpg image for the  model to work on it. This can be easily accomplished in the command line using [ImageMagick](https://www.imagemagick.org/script/index.php).
 
-```bash```
-`convert rose.jpg rose.png`
 
 Credits
 -------
